@@ -12,6 +12,14 @@ export default {
         danger: '#e3342f',
         // Thêm các màu khác
       },
+      fontFamily: {
+        // Cập nhật font mặc định
+        TikTokFont: ['TikTokFont', 'Arial',' Tahoma',' PingFangSC', 'sans-serif'], // Ví dụ với font sans
+       
+      },
+      maxHeight: {
+        'SearchdropDownMenu': 'calc(min(-156px + 100vh, 734px))',
+      },
     },
   },
   plugins: [],

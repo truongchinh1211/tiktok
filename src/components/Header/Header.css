@@ -1,0 +1,7 @@
+
+@tailwind utilities;
+@layer utilities{
+    .search-border-active {
+        @apply border-black border-solid border
+    }
+}

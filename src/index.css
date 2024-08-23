@@ -2,8 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'TikTokFont';
+  src:url('./assets/fonts/TikTokSans/TikTokText-Regular.otf') format('opentype'),
+      url('./assets/fonts/TikTokSans/TikTokText-Medium.otf') format('opentype'),
+      url('./assets/fonts/TikTokSans/TikTokText-Bold.otf') format('opentype'),
+      url('./assets/fonts/TikTokSans/TikTokDisplay-Regular.otf') format('opentype'),
+      url('./assets/fonts/TikTokSans/TikTokDisplay-Medium.otf') format('opentype'),
+      url('./assets/fonts/TikTokSans/TikTokDisplay-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
 .root, html, body {
-  font-family: "Helvetica", serif !important;
+  font-family: TikTokFont;
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
